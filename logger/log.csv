@@ -1,0 +1,24 @@
+
+
+SEVERE,02-15-16 22:07:20,logger.EventLogger,java.util.logging.LogRecord@74a14482
+WARNING,02-15-16 22:07:20,logger.EventLogger,java.util.logging.LogRecord@1540e19d
+INFO,02-15-16 22:07:20,logger.EventLogger,java.util.logging.LogRecord@677327b6
+FINEST,02-15-16 22:07:20,logger.EventLogger,java.util.logging.LogRecord@14ae5a5
+SEVERE,02-15-16 22:07:20,logger.EventLogger,java.util.logging.LogRecord@6d6f6e28
+INFO,02-15-16 22:07:20,gardenControl.GardenController,java.util.logging.LogRecord@45ee12a7
+SEVERE,02-15-16 22:18:31,logger.EventLogger,java.util.logging.LogRecord@74a14482
+WARNING,02-15-16 22:18:31,logger.EventLogger,java.util.logging.LogRecord@1540e19d
+INFO,02-15-16 22:18:31,logger.EventLogger,java.util.logging.LogRecord@677327b6
+FINEST,02-15-16 22:18:31,logger.EventLogger,java.util.logging.LogRecord@14ae5a5
+SEVERE,02-15-16 22:18:31,logger.EventLogger,java.util.logging.LogRecord@6d6f6e28
+INFO,02-15-16 22:18:31,gardenControl.GardenController,java.util.logging.LogRecord@45ee12a7
+INFO,02-15-16 22:18:31,gardenControl.GardenController,java.util.logging.LogRecord@330bedb4
+SEVERE,02-16-16 01:29:27,logger.EventLogger,This is a SEVERE-level log,logger.EventLogger
+WARNING,02-16-16 01:29:27,logger.EventLogger,This is a WARNING-level log,logger.EventLogger
+INFO,02-16-16 01:29:27,logger.EventLogger,This is a INFO-level log,logger.EventLogger
+FINEST,02-16-16 01:29:27,logger.EventLogger,This is a FINEST-level log,logger.EventLogger
+SEVERE,02-16-16 01:29:27,logger.EventLogger,Simulating an exception,logger.EventLogger
+INFO,02-16-16 01:29:27,gardenControl.GardenController,hey,logger.EventLogger
+INFO,02-16-16 01:29:27,gardenControl.GardenController,Graden controller started,logger.EventLogger
+INFO,02-16-16 13:01:59,gardenControl.GardenController,hey,logger.EventLogger
+INFO,02-16-16 13:02:00,gardenControl.GardenController,Graden controller started,logger.EventLogger

@@ -1,22 +1,203 @@
 
-
-SEVERE,02-15-16 22:07:20,logger.EventLogger,java.util.logging.LogRecord@74a14482
-WARNING,02-15-16 22:07:20,logger.EventLogger,java.util.logging.LogRecord@1540e19d
-INFO,02-15-16 22:07:20,logger.EventLogger,java.util.logging.LogRecord@677327b6
-FINEST,02-15-16 22:07:20,logger.EventLogger,java.util.logging.LogRecord@14ae5a5
-SEVERE,02-15-16 22:07:20,logger.EventLogger,java.util.logging.LogRecord@6d6f6e28
-INFO,02-15-16 22:07:20,gardenControl.GardenController,java.util.logging.LogRecord@45ee12a7
-SEVERE,02-15-16 22:18:31,logger.EventLogger,java.util.logging.LogRecord@74a14482
-WARNING,02-15-16 22:18:31,logger.EventLogger,java.util.logging.LogRecord@1540e19d
-INFO,02-15-16 22:18:31,logger.EventLogger,java.util.logging.LogRecord@677327b6
-FINEST,02-15-16 22:18:31,logger.EventLogger,java.util.logging.LogRecord@14ae5a5
-SEVERE,02-15-16 22:18:31,logger.EventLogger,java.util.logging.LogRecord@6d6f6e28
-INFO,02-15-16 22:18:31,gardenControl.GardenController,java.util.logging.LogRecord@45ee12a7
-INFO,02-15-16 22:18:31,gardenControl.GardenController,java.util.logging.LogRecord@330bedb4
-SEVERE,02-16-16 01:29:27,logger.EventLogger,This is a SEVERE-level log,logger.EventLogger
-WARNING,02-16-16 01:29:27,logger.EventLogger,This is a WARNING-level log,logger.EventLogger
-INFO,02-16-16 01:29:27,logger.EventLogger,This is a INFO-level log,logger.EventLogger
-FINEST,02-16-16 01:29:27,logger.EventLogger,This is a FINEST-level log,logger.EventLogger
-SEVERE,02-16-16 01:29:27,logger.EventLogger,Simulating an exception,logger.EventLogger
-INFO,02-16-16 01:29:27,gardenControl.GardenController,hey,logger.EventLogger
-INFO,02-16-16 01:29:27,gardenControl.GardenController,Graden controller started,logger.EventLogger
+INFO,02-26-16 20:32:47,gardenControl.GardenController,System ,  Garden initiated,0,0:0
+INFO,02-26-16 20:32:47,gardenControl.GardenController,System , System UI initiated,0,0:0
+INFO,02-26-16 20:32:47,gardenControl.GardenController, System, Process runing started,0,0:0
+INFO,02-26-16 20:32:47,devices.Device,System ,Heater 0 is turned on,0,0:0
+INFO,02-26-16 20:33:01,view.controllers.SystemUIController,Randomnes , Soil degrading,0,0:13
+INFO,02-26-16 20:33:02,devices.Device,System ,Heater 0 is turned off,0,0:15
+INFO,02-26-16 20:33:04,view.controllers.SystemUIController,Randomnes , Very cold,0,0:17
+INFO,02-26-16 20:33:04,devices.Device,System ,Heater 0 is turned on,0,0:17
+INFO,02-26-16 20:33:07,view.controllers.SystemUIController,Randomnes , Very Hot,0,0:19
+INFO,02-26-16 20:33:07,devices.Device,System ,Heater 0 is turned off,0,0:20
+INFO,02-26-16 20:33:07,devices.Device,System ,Cooler 1 is turned on,0,0:20
+INFO,02-26-16 20:33:09,view.controllers.SystemUIController,Randomnes , Fire occured,0,0:21
+INFO,02-26-16 20:33:13,view.controllers.SystemUIController,Interaction , Manual override - User turned on watering  ,0,0:25
+INFO,02-26-16 20:33:13,view.controllers.SystemUIController,Randomnes , Very Hot,0,0:25
+INFO,02-26-16 20:33:13,wateringSystem.Watering,System , Watering System turned on,0,0:25
+INFO,02-26-16 20:33:15,view.controllers.SystemUIController,Randomnes , Raining,0,0:27
+INFO,02-26-16 20:33:15,wateringSystem.Watering,System , Raining,0,0:28
+INFO,02-26-16 20:33:15,wateringSystem.SprinklerImple,System , Sprinkler 0 turned off ,0,0:28
+INFO,02-26-16 20:33:15,wateringSystem.SprinklerImple,System , Sprinkler 1 turned off ,0,0:28
+INFO,02-26-16 20:33:15,wateringSystem.SprinklerImple,System , Sprinkler 2 turned off ,0,0:28
+INFO,02-26-16 20:33:15,wateringSystem.SprinklerImple,System , Sprinkler 3 turned off ,0,0:28
+INFO,02-26-16 20:33:15,wateringSystem.SprinklerImple,System , Sprinkler 4 turned off ,0,0:28
+INFO,02-26-16 20:33:15,wateringSystem.SprinklerImple,System , Sprinkler 5 turned off ,0,0:28
+INFO,02-26-16 20:33:15,wateringSystem.SprinklerImple,System , Sprinkler 6 turned off ,0,0:28
+INFO,02-26-16 20:33:15,wateringSystem.SprinklerImple,System , Sprinkler 7 turned off ,0,0:28
+INFO,02-26-16 20:33:15,wateringSystem.SprinklerImple,System , Sprinkler 8 turned off ,0,0:28
+INFO,02-26-16 20:33:15,wateringSystem.SprinklerImple,System , Sprinkler 9 turned off ,0,0:28
+INFO,02-26-16 20:33:15,wateringSystem.SprinklerImple,System , Sprinkler 10 turned off ,0,0:28
+INFO,02-26-16 20:33:15,wateringSystem.SprinklerImple,System , Sprinkler 11 turned off ,0,0:28
+INFO,02-26-16 20:33:15,wateringSystem.SprinklerImple,System , Sprinkler 12 turned off ,0,0:28
+INFO,02-26-16 20:33:15,wateringSystem.SprinklerImple,System , Sprinkler 13 turned off ,0,0:28
+INFO,02-26-16 20:33:15,wateringSystem.SprinklerImple,System , Sprinkler 14 turned off ,0,0:28
+INFO,02-26-16 20:33:15,wateringSystem.SprinklerImple,System , Sprinkler 15 turned off ,0,0:28
+INFO,02-26-16 20:33:15,wateringSystem.SprinklerImple,System , Sprinkler 16 turned off ,0,0:28
+INFO,02-26-16 20:33:15,wateringSystem.SprinklerImple,System , Sprinkler 17 turned off ,0,0:28
+INFO,02-26-16 20:33:15,wateringSystem.SprinklerImple,System , Sprinkler 18 turned off ,0,0:28
+INFO,02-26-16 20:33:15,wateringSystem.SprinklerImple,System , Sprinkler 19 turned off ,0,0:28
+INFO,02-26-16 20:33:15,wateringSystem.Watering,System , Watering System turned off,0,0:28
+INFO,02-26-16 20:33:16,wateringSystem.Watering,System , Raining,0,0:28
+INFO,02-26-16 20:33:16,wateringSystem.Watering,System , Raining,0,0:29
+INFO,02-26-16 20:33:17,wateringSystem.Watering,System , Raining,0,0:29
+INFO,02-26-16 20:33:17,wateringSystem.Watering,System , Raining,0,0:30
+INFO,02-26-16 20:33:18,wateringSystem.Watering,System , Raining Stoped,0,0:30
+INFO,02-26-16 20:33:27,devices.Device,System ,Cooler 1 is turned off,0,0:40
+INFO,02-26-16 20:33:27,devices.Device,System ,Cooler 1 is turned off,0,0:40
+INFO,02-26-16 20:33:27,view.controllers.SystemUIController,Interaction , Manual override - User turned off Cooler ,0,0:40
+INFO,02-26-16 20:33:40,devices.Device,System ,Cooler 1 is turned off,0,0:53
+INFO,02-26-16 20:33:40,devices.Device,System ,Heater 0 is turned on,0,0:53
+INFO,02-26-16 20:33:40,view.controllers.SystemUIController,Interaction ,  Manual override - User turned off Heater ,0,0:53
+INFO,02-26-16 20:33:46,devices.Device,System ,Heater 0 is turned off,0,0:58
+INFO,02-26-16 20:33:46,view.controllers.SystemUIController,Interaction ,  Manual override - User turned on Heater ,0,0:58
+INFO,02-26-16 20:33:46,devices.Device,System ,Cooler 1 is turned on,0,0:59
+INFO,02-26-16 20:33:54,devices.Device,System ,Cooler 1 is turned off,0,1:7
+INFO,02-26-16 20:34:09,devices.Device,System ,Cooler 1 is turned off,0,1:21
+INFO,02-26-16 20:34:09,devices.Device,System ,Heater 0 is turned on,0,1:21
+INFO,02-26-16 20:34:09,view.controllers.SystemUIController,Interaction ,  Manual override - User turned off Heater ,0,1:21
+INFO,02-26-16 20:34:48,devices.Device,System ,Heater 0 is turned off,0,2:0
+INFO,02-26-16 20:34:48,view.controllers.SystemUIController,Interaction ,  Manual override - User turned on Heater ,0,2:0
+INFO,02-26-16 20:34:48,devices.Device,System ,Cooler 1 is turned on,0,2:1
+INFO,02-26-16 20:35:18,devices.Device,System ,Cooler 1 is turned off,0,2:30
+INFO,02-26-16 20:35:18,devices.Device,System ,Heater 0 is turned on,0,2:30
+INFO,02-26-16 20:35:18,view.controllers.SystemUIController,Interaction ,  Manual override - User turned off Heater ,0,2:30
+INFO,02-26-16 20:35:20,devices.Device,System ,Heater 0 is turned off,0,2:33
+INFO,02-26-16 20:35:20,view.controllers.SystemUIController,Interaction ,  Manual override - User turned on Heater ,0,2:33
+INFO,02-26-16 20:35:21,devices.Device,System ,Cooler 1 is turned on,0,2:33
+INFO,02-26-16 20:35:33,devices.Device,System ,Cooler 1 is turned off,0,2:45
+INFO,03-06-16 16:45:58,gardenControl.GardenController,System ,  Garden initiated,0,0:0
+INFO,03-06-16 16:45:58,gardenControl.GardenController,System , System UI initiated,0,0:0
+INFO,03-06-16 16:45:58,gardenControl.GardenController, System, Process runing started,0,0:0
+INFO,03-06-16 16:45:58,devices.Device,System ,Heater 0 is turned on,0,0:0
+INFO,03-06-16 16:46:13,devices.Device,System ,Heater 0 is turned off,0,0:15
+INFO,03-06-16 16:46:26,view.controllers.SystemUIController,Interaction , Manual override - User turned on watering  ,0,0:28
+INFO,03-06-16 16:46:26,view.controllers.SystemUIController,Randomnes , Very Hot,0,0:28
+INFO,03-06-16 16:46:26,wateringSystem.Watering,System , Watering System turned on,0,0:28
+INFO,03-06-16 16:46:30,view.controllers.SystemUIController,Randomnes , Raining,0,0:32
+INFO,03-06-16 16:46:30,wateringSystem.Watering,System , Raining,0,0:32
+INFO,03-06-16 16:46:30,wateringSystem.SprinklerImple,System , Sprinkler 0 turned off ,0,0:32
+INFO,03-06-16 16:46:30,wateringSystem.SprinklerImple,System , Sprinkler 1 turned off ,0,0:32
+INFO,03-06-16 16:46:30,wateringSystem.SprinklerImple,System , Sprinkler 2 turned off ,0,0:32
+INFO,03-06-16 16:46:30,wateringSystem.SprinklerImple,System , Sprinkler 3 turned off ,0,0:32
+INFO,03-06-16 16:46:30,wateringSystem.SprinklerImple,System , Sprinkler 4 turned off ,0,0:32
+INFO,03-06-16 16:46:30,wateringSystem.SprinklerImple,System , Sprinkler 5 turned off ,0,0:32
+INFO,03-06-16 16:46:30,wateringSystem.SprinklerImple,System , Sprinkler 6 turned off ,0,0:32
+INFO,03-06-16 16:46:30,wateringSystem.SprinklerImple,System , Sprinkler 7 turned off ,0,0:32
+INFO,03-06-16 16:46:30,wateringSystem.SprinklerImple,System , Sprinkler 8 turned off ,0,0:32
+INFO,03-06-16 16:46:30,wateringSystem.SprinklerImple,System , Sprinkler 9 turned off ,0,0:32
+INFO,03-06-16 16:46:30,wateringSystem.SprinklerImple,System , Sprinkler 10 turned off ,0,0:32
+INFO,03-06-16 16:46:30,wateringSystem.SprinklerImple,System , Sprinkler 11 turned off ,0,0:32
+INFO,03-06-16 16:46:30,wateringSystem.SprinklerImple,System , Sprinkler 12 turned off ,0,0:32
+INFO,03-06-16 16:46:30,wateringSystem.SprinklerImple,System , Sprinkler 13 turned off ,0,0:32
+INFO,03-06-16 16:46:30,wateringSystem.SprinklerImple,System , Sprinkler 14 turned off ,0,0:32
+INFO,03-06-16 16:46:30,wateringSystem.SprinklerImple,System , Sprinkler 15 turned off ,0,0:32
+INFO,03-06-16 16:46:30,wateringSystem.SprinklerImple,System , Sprinkler 16 turned off ,0,0:32
+INFO,03-06-16 16:46:30,wateringSystem.SprinklerImple,System , Sprinkler 17 turned off ,0,0:32
+INFO,03-06-16 16:46:30,wateringSystem.SprinklerImple,System , Sprinkler 18 turned off ,0,0:32
+INFO,03-06-16 16:46:30,wateringSystem.SprinklerImple,System , Sprinkler 19 turned off ,0,0:32
+INFO,03-06-16 16:46:30,wateringSystem.Watering,System , Watering System turned off,0,0:32
+INFO,03-06-16 16:46:31,wateringSystem.Watering,System , Raining,0,0:33
+INFO,03-06-16 16:46:31,wateringSystem.Watering,System , Raining,0,0:33
+INFO,03-06-16 16:46:32,wateringSystem.Watering,System , Raining,0,0:34
+INFO,03-06-16 16:46:32,wateringSystem.Watering,System , Raining,0,0:34
+INFO,03-06-16 16:46:33,wateringSystem.Watering,System , Raining,0,0:35
+INFO,03-06-16 16:46:33,wateringSystem.Watering,System , Raining,0,0:35
+INFO,03-06-16 16:46:34,wateringSystem.Watering,System , Raining,0,0:36
+INFO,03-06-16 16:46:34,wateringSystem.Watering,System , Raining,0,0:36
+INFO,03-06-16 16:46:35,wateringSystem.Watering,System , Raining Stoped,0,0:37
+INFO,03-06-16 16:46:36,view.controllers.SystemUIController,Randomnes , Fire occured,0,0:38
+INFO,03-06-16 16:46:55,view.controllers.SystemUIController,Randomnes , Very cold,0,0:56
+INFO,03-06-16 16:46:55,devices.Device,System ,Heater 0 is turned on,0,0:57
+INFO,03-06-16 16:47:37,devices.Device,System ,Heater 0 is turned off,0,1:39
+INFO,03-06-16 16:48:17,view.controllers.SystemUIController,Randomnes , Soil degrading,0,2:19
+INFO,03-06-16 16:48:23,view.controllers.SystemUIController,Randomnes , Soil degrading,0,2:25
+INFO,03-06-16 16:48:26,view.controllers.SystemUIController,Randomnes , Soil degrading,0,2:28
+INFO,03-06-16 16:48:39,view.controllers.SystemUIController,Interaction , User turned off Fire sensor,0,2:41
+INFO,03-06-16 16:48:39,view.controllers.SystemUIController,System , Fire sensor deatcivated,0,2:41
+INFO,03-06-16 16:48:41,view.controllers.SystemUIController,Randomnes , Fire occured,0,2:43
+INFO,03-06-16 16:48:44,view.controllers.SystemUIController,Randomnes , Fire occured,0,2:45
+INFO,03-06-16 16:48:46,view.controllers.SystemUIController,Interaction , User turned on Fire sensor,0,2:47
+INFO,03-06-16 16:48:46,view.controllers.SystemUIController,System , Fire sensor deatcivated,0,2:47
+INFO,03-06-16 16:48:55,devices.Device,System ,Cooler 1 is turned off,0,2:56
+INFO,03-06-16 16:48:55,devices.Device,System ,Heater 0 is turned on,0,2:56
+INFO,03-06-16 16:48:55,view.controllers.SystemUIController,Interaction ,  Manual override - User turned off Heater ,0,2:56
+INFO,03-06-16 16:49:04,devices.Device,System ,Heater 0 is turned off,0,3:5
+INFO,03-06-16 16:49:04,view.controllers.SystemUIController,Interaction ,  Manual override - User turned on Heater ,0,3:5
+INFO,03-06-16 16:49:04,devices.Device,System ,Cooler 1 is turned on,0,3:6
+INFO,03-06-16 16:49:05,devices.Device,System ,Cooler 1 is turned off,0,3:7
+INFO,03-06-16 16:49:48,devices.Device,System ,Cooler 1 is turned on,0,3:50
+INFO,03-06-16 16:49:53,devices.Device,System ,Cooler 1 is turned off,0,3:55
+INFO,03-07-16 00:28:23,gardenControl.GardenController,System ,  Garden initiated,0,0:0
+INFO,03-07-16 00:28:23,gardenControl.GardenController,System , System UI initiated,0,0:0
+INFO,03-07-16 00:28:23,gardenControl.GardenController, System, Process runing started,0,0:0
+INFO,03-07-16 00:28:23,devices.Device,System ,Heater 0 is turned on,0,0:0
+INFO,03-07-16 00:28:38,devices.Device,System ,Heater 0 is turned off,0,0:15
+INFO,03-07-16 00:28:46,view.controllers.SystemUIController,Interaction , Manual override - User turned on watering  ,0,0:22
+INFO,03-07-16 00:28:46,view.controllers.SystemUIController,Randomnes , Very Hot,0,0:22
+INFO,03-07-16 00:28:46,wateringSystem.Watering,System , Watering System turned on,0,0:22
+INFO,03-07-16 00:28:49,view.controllers.SystemUIController,Randomnes , Raining,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.Watering,System , Raining,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.SprinklerImple,System , Sprinkler 0 turned off ,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.SprinklerImple,System , Sprinkler 1 turned off ,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.SprinklerImple,System , Sprinkler 2 turned off ,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.SprinklerImple,System , Sprinkler 3 turned off ,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.SprinklerImple,System , Sprinkler 4 turned off ,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.SprinklerImple,System , Sprinkler 5 turned off ,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.SprinklerImple,System , Sprinkler 6 turned off ,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.SprinklerImple,System , Sprinkler 7 turned off ,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.SprinklerImple,System , Sprinkler 8 turned off ,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.SprinklerImple,System , Sprinkler 9 turned off ,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.SprinklerImple,System , Sprinkler 10 turned off ,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.SprinklerImple,System , Sprinkler 11 turned off ,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.SprinklerImple,System , Sprinkler 12 turned off ,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.SprinklerImple,System , Sprinkler 13 turned off ,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.SprinklerImple,System , Sprinkler 14 turned off ,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.SprinklerImple,System , Sprinkler 15 turned off ,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.SprinklerImple,System , Sprinkler 16 turned off ,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.SprinklerImple,System , Sprinkler 17 turned off ,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.SprinklerImple,System , Sprinkler 18 turned off ,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.SprinklerImple,System , Sprinkler 19 turned off ,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.Watering,System , Watering System turned off,0,0:26
+INFO,03-07-16 00:28:50,wateringSystem.Watering,System , Raining,0,0:27
+INFO,03-07-16 00:28:51,wateringSystem.Watering,System , Raining,0,0:27
+INFO,03-07-16 00:28:51,wateringSystem.Watering,System , Raining,0,0:28
+INFO,03-07-16 00:28:52,wateringSystem.Watering,System , Raining,0,0:28
+INFO,03-07-16 00:28:52,wateringSystem.Watering,System , Raining,0,0:29
+INFO,03-07-16 00:28:53,wateringSystem.Watering,System , Raining,0,0:29
+INFO,03-07-16 00:28:53,wateringSystem.Watering,System , Raining,0,0:30
+INFO,03-07-16 00:28:54,wateringSystem.Watering,System , Raining,0,0:30
+INFO,03-07-16 00:28:54,wateringSystem.Watering,System , Raining,0,0:31
+INFO,03-07-16 00:28:55,wateringSystem.Watering,System , Raining,0,0:31
+INFO,03-07-16 00:28:55,wateringSystem.Watering,System , Raining,0,0:32
+INFO,03-07-16 00:28:56,wateringSystem.Watering,System , Raining,0,0:32
+INFO,03-07-16 00:28:56,wateringSystem.Watering,System , Raining,0,0:33
+INFO,03-07-16 00:28:57,wateringSystem.Watering,System , Raining Stoped,0,0:33
+INFO,03-07-16 00:28:58,view.controllers.SystemUIController,Randomnes , Fire occured,0,0:35
+INFO,03-07-16 00:29:03,view.controllers.SystemUIController,Interaction , User turned off rain sensor,0,0:39
+INFO,03-07-16 00:29:03,view.controllers.SystemUIController,System , Rain sensor deatcivated,0,0:39
+INFO,03-07-16 00:29:04,view.controllers.SystemUIController,Interaction , Manual override - User turned on watering  ,0,0:41
+INFO,03-07-16 00:29:04,view.controllers.SystemUIController,Randomnes , Very Hot,0,0:41
+INFO,03-07-16 00:29:04,wateringSystem.Watering,System , Watering System turned on,0,0:41
+INFO,03-07-16 00:29:07,view.controllers.SystemUIController,Randomnes , Raining,0,0:44
+INFO,03-07-16 00:29:13,view.controllers.SystemUIController,Interaction , User turned on rain sensor,0,0:49
+INFO,03-07-16 00:29:13,view.controllers.SystemUIController,System , Rain sensor atcivated,0,0:49
+INFO,03-07-16 00:29:24,devices.Device,System ,Heater 0 is turned on,0,1:0
+INFO,03-07-16 00:29:31,devices.Device,System ,Heater 0 is turned off,0,1:8
+INFO,03-07-16 00:29:58,view.controllers.SystemUIController,Randomnes , Very cold,0,1:34
+INFO,03-07-16 00:29:58,devices.Device,System ,Heater 0 is turned on,0,1:34
+INFO,03-07-16 00:30:03,view.controllers.SystemUIController,Randomnes , Very Hot,0,1:39
+INFO,03-07-16 00:30:03,devices.Device,System ,Heater 0 is turned off,0,1:40
+INFO,03-07-16 00:30:03,devices.Device,System ,Cooler 1 is turned on,0,1:40
+INFO,03-07-16 00:30:20,view.controllers.SystemUIController,Randomnes , Soil degrading,0,1:56
+INFO,03-07-16 00:30:26,devices.Device,System ,Cooler 1 is turned off,0,2:3
+INFO,03-07-16 00:30:29,view.controllers.SystemUIController,Randomnes , Soil degrading,0,2:6
+INFO,03-07-16 00:30:30,view.controllers.SystemUIController,Randomnes , Soil degrading,0,2:6
+INFO,03-07-16 00:31:12,devices.Device,System ,Cooler 1 is turned off,0,2:49
+INFO,03-07-16 00:31:12,devices.Device,System ,Heater 0 is turned on,0,2:49
+INFO,03-07-16 00:31:12,view.controllers.SystemUIController,Interaction ,  Manual override - User turned off Heater ,0,2:49
+INFO,03-07-16 00:31:24,devices.Device,System ,Heater 0 is turned off,0,3:1
+INFO,03-07-16 00:31:24,view.controllers.SystemUIController,Interaction ,  Manual override - User turned on Heater ,0,3:1
+INFO,03-07-16 00:31:24,devices.Device,System ,Cooler 1 is turned on,0,3:1
+INFO,03-07-16 00:31:33,devices.Device,System ,Cooler 1 is turned off,0,3:10
+INFO,03-07-16 00:31:46,devices.Device,System ,Cooler 1 is turned on,0,3:23
+INFO,03-07-16 00:31:51,devices.Device,System ,Cooler 1 is turned off,0,3:28
